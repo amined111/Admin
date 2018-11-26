@@ -140,8 +140,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(``)
    message.author.sendEmbed(embed)
    
    }
@@ -152,8 +151,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(``)
    message.author.sendEmbed(embed)
    
    }
@@ -164,8 +162,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(``)
    message.author.sendEmbed(embed)
    
    }
@@ -176,8 +173,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(``)
    message.author.sendEmbed(embed)
    
    }
@@ -188,8 +184,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(``)
    message.author.sendEmbed(embed)
    
    }
@@ -401,8 +396,8 @@ client.on('message', message => {
       if (message.content === "-help-a") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setFooter('By A.#2001  ')
+           .setDescription(``)
      message.author.sendEmbed(embed)
      
      }
@@ -413,8 +408,8 @@ client.on('message', message => {
       if (message.content === "-help-g") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setFooter('By A.#2001  ')
+           .setDescription(``)
      message.author.sendEmbed(embed)
      
      }
@@ -425,8 +420,8 @@ client.on('message', message => {
       if (message.content === "-help-m") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setFooter('By A.#2001  ')
+           .setDescription(``)
      message.author.sendEmbed(embed)
      
      }
@@ -437,8 +432,8 @@ client.on('message', message => {
       if (message.content === "-help-p") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setFooter('By A.#2001  ')
+           .setDescription(``)
      message.author.sendEmbed(embed)
      
      }
@@ -726,7 +721,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = "-";
-const devs = ['396958215377780747'];
+const devs = ['485917652120764429'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -1081,8 +1076,8 @@ client.on('message', message => {
 client.on('message', message => {
         if(!message.channel.guild) return;
 let args = message.content.split(' ').join(" ");
-if (message.content.startsWith('-legend')){
-if (message.author.id !== '396958215377780747') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.content.startsWith('A.')){
+if (message.author.id !== '485917652120764429') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -1718,7 +1713,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['-inv','-help'];	
+    var setGame = ['Stylight','-help'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2338,40 +2333,7 @@ message.channel.sendEmbed(Embed).then(msg => {
                                 });
 
 
-client.on('message' , message => {
-var prefix = "-"
 
-if (message.author.bot) return;
-if (message.content.startsWith(prefix + "contact")) {
-if (!message.channel.guild) return;
-
-
-
-let args = message.content.split(" ").slice(1).join(" ");
-
-
-
-client.users.get("396958215377780747").send(
-    "\n" + "**" + "● السيرفر :" + "**" +
-    "\n" + "**" + "» " + message.guild.name + "**" +
-    "\n" + "**" + " ● المرسل : " + "**" +
-    "\n" + "**" + "» " + message.author.tag + "**" +
-    "\n" + "**" + " ● الرسالة : " + "**" +
-    "\n" + "**" + args + "**")
-
-let embed = new Discord.RichEmbed()
-     .setAuthor(message.author.username, message.author.avatarURL)
-     .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
-     .setThumbnail(message.author.avatarURL)
-     .setFooter("By : LEGEND_YT#4537 ")
-                                                
-
-message.channel.send(embed);
-
-
-}
-    
-});
 
 client.on('message', message => {
 	var prefix = "-"
@@ -2493,25 +2455,14 @@ client.on('message', message => {
  
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`:rose:  ولكم نورت السيرفر:rose: 
+  return channel.send(`:rose:  Bienvenue à stylight  serever:rose: 
 :crown:اسم العضو  ${member}:crown:  
 انت العضو رقم ${member.guild.memberCount} `) 
 }).catch(console.error)
 })
 
-client.on('message', message => {
-        if (message.content === "-inv") {
-            if(!message.channel.guild) return;
-        let embed = new Discord.RichEmbed()
-        .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
-        .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
-        .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
-     message.channel.sendEmbed(embed);
-       }
-   });
- 
 
+ 
 client.on('message', message => {
     if(message.content.includes('discord.gg')){
                                             if(!message.channel.guild) return message.reply('** advertising me on DM ? :thinking:   **');
@@ -2836,17 +2787,7 @@ message.channel.stopTyping()
       
       
      
-   client.on('message', message => {
-     if (message.content === "-support") {
-     let embed = new Discord.RichEmbed()
-  .setAuthor(message.author.username)
-  .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/TZ3dcyC**")
-     
-     
-  message.channel.sendEmbed(embed);
-    }
-});
+
 client.on('message', omar => {
 var prefix = "-";
 if(omar.content.split(' ')[0] == prefix + 'dc') {  // delete all channels
@@ -2974,7 +2915,7 @@ Server owner: __${guild.owner}__**`)
 }); 
 			      
 const sWlc = {}
-const premium = ['396958215377780747', '', '', '']
+const premium = ['485917652120764429', '', '', '']
 client.on('message', message => {
 var prefix = "-";
 if(message.channel.type === "dm") return;
