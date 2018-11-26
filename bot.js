@@ -140,7 +140,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(``)
+         .setDescription(`-help-a/-help-p/-help-g/-help-m`)
    message.author.sendEmbed(embed)
    
    }
@@ -151,7 +151,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(``)
+         .setDescription(`**الأوامر اللإدارة**`)
    message.author.sendEmbed(embed)
    
    }
@@ -162,7 +162,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(``)
+         .setDescription(`**الأوامر العامة**`)
    message.author.sendEmbed(embed)
    
    }
@@ -173,7 +173,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(``)
+         .setDescription(`**الأوامرالألعاب**`)
    message.author.sendEmbed(embed)
    
    }
@@ -184,7 +184,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(``)
+         .setDescription(`**الأوامر الموسيقى**`)
    message.author.sendEmbed(embed)
    
    }
@@ -377,12 +377,6 @@ client.on('message', message => {
   ** -embed | يكرر الي تقولو بشكل حلو**:small_blue_diamond: 
 
   ** -emoji <any things> | لتحويل اي كلمه تقولها الي ايموجي**:small_orange_diamond: 
-
-  ** -inv | لدعوة البوت الى سيرفرك**:black_circle: 
-
-  ** -support | سيرفر الدعم**:wrench:  :envelope_with_arrow: 
-  
-  ** -contact | ارسال اقتراح او لمراسلة صاحب البوت**
   
 **  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======  **`)
      message.author.sendEmbed(embed)
@@ -397,7 +391,7 @@ client.on('message', message => {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
            .setFooter('By A.#2001  ')
-           .setDescription(``)
+           .setDescription(`**اوامر الأداره**`)
      message.author.sendEmbed(embed)
      
      }
@@ -409,7 +403,7 @@ client.on('message', message => {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
            .setFooter('By A.#2001  ')
-           .setDescription(``)
+           .setDescription(`**اوامر الألعاب**`)
      message.author.sendEmbed(embed)
      
      }
@@ -421,7 +415,7 @@ client.on('message', message => {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
            .setFooter('By A.#2001  ')
-           .setDescription(``)
+           .setDescription(`اوامر الموسيقى`)
      message.author.sendEmbed(embed)
      
      }
@@ -1116,7 +1110,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``INFO Super Bot`` ')
+            .setTitle('``INFO Stylight Bot`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -1126,7 +1120,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | LEGEND_YT#4537 ')
+			      .setFooter('By | A.#2001 ')
     })
 }
 });
@@ -1713,7 +1707,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Stylight','-help'];	
+    var setGame = ['Stylight','-help','By A.#2001.'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2518,7 +2512,7 @@ client.on("message", message => {
   if (message.author.bot) return;
   if(!message.channel.guild)return;
   if (!profile[message.author.id]) profile[message.author.id] = {
-    tite: 'Super User',
+    tite: 'Styligt User',
     rep: 0,
     reps: 'NOT YET',
     lastDaily:'Not Collected',
@@ -2893,12 +2887,12 @@ if(!message.channel.guild) return;
 
 			      
 client.on('guildCreate', guild => {
-  client.channels.get("468911065095208980").send(`**Woops new server ✅
+  client.channels.get("505075875771842571").send(`**Woops new server ✅
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__**`)
 });
 client.on("guildDelete", guild => {
- client.channels.get("468911065095208980").send(`**Rmoved From server :x:
+ client.channels.get("505075875771842571").send(`**Rmoved From server :x:
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__**`)
 });
@@ -3170,16 +3164,31 @@ channel.guild.owner.send(`<@!${channelremover.id}>
     .setColor("#707070")
     .addField(': دخولك لديسكورد قبل', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true) 
     .addField(': انضمامك لسيرفر قبل', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)               
-    .setFooter(`Super Bot`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
+    .setFooter(`STYLIGHT Bot`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
     .setThumbnail(heg.avatarURL);
     message.channel.send(id)
 }       });
+
 client.on('voiceStateUpdate', (old, now) => {
-  const channel = client.channels.get('516350860230524939');
+  const channel = client.channels.get('515233246318166040');
   const currentSize = channel.guild.members.filter(m => m.voiceChannel).size;
   const size = channel.name.match(/\[\s(\d+)\s\]/);
   if (!size) return channel.setName(`Voice Online: [ ${currentSize} ]`);
   if (currentSize !== size) channel.setName(`Voice Online: [ ${currentSize} ]`);
+});
+
+client.on('ready',async () => {
+console.log("Starting..");
+let g = client.guilds.get("505075875771842571");
+let c = g.channels.get("515233289670230024");
+if(c.type === 'voice') {
+c.join();
+setInterval(() => {
+if(!g.me.voiceChannel) c.join();
+}, 1);
+} else {
+console.log("Failed To Join:\n The Channel Type isn't \"text\"");
+}
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
