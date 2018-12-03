@@ -3191,19 +3191,4 @@ console.log("Failed To Join:\n The Channel Type isn't \"text\"");
 }
 });
 // THIS  MUST  BE  THIS  WAY
-
-client.on('ready',async () => {
-console.log("Starting..");
-let g = client.guilds.get("516350859756699668");
-let c = g.channels.get("516351969607024642");
-if(c.type === 'voice') {
-c.join();
-setInterval(() => {
-if(!g.me.voiceChannel) c.join();
-}, 1);
-} else {
-console.log("Failed To Join:\n The Channel Type isn't \"text\"");
-}
-});
-
 client.login(process.env.BOT_TOKEN);
