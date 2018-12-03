@@ -1707,7 +1707,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Stylight','-help','By A.#2001.'];	
+    var setGame = ['Shop','-help','By A.#2001.'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -3179,8 +3179,8 @@ client.on('voiceStateUpdate', (old, now) => {
 
 client.on('ready',async () => {
 console.log("Starting..");
-let g = client.guilds.get("505075875771842571");
-let c = g.channels.get("515233289670230024");
+let g = client.guilds.get("516350859756699668");
+let c = g.channels.get("516350860230524939");
 if(c.type === 'voice') {
 c.join();
 setInterval(() => {
