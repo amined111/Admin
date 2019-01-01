@@ -1707,7 +1707,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Shop','-help','By A.#2001.'];	
+    var setGame = ['Punisher','-help','By A.#2001.'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2931,7 +2931,7 @@ const channel = sWlc[message.guild.id].channel
 
 client.on("guildMemberAdd", member => {
       if(!sWlc[member.guild.id]) sWlc[member.guild.id] = {
-    channel: "welcome"
+    channel: "chat"
   }
   const channel = sWlc[member.guild.id].channel
     const sChannel = sWlc[member.guild.id].channel
@@ -3170,7 +3170,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 }       });
 
 client.on('voiceStateUpdate', (old, now) => {
-  const channel = client.channels.get('518943495419854854');
+  const channel = client.channels.get('529795238634586113');
   const currentSize = channel.guild.members.filter(m => m.voiceChannel).size;
   const size = channel.name.match(/\[\s(\d+)\s\]/);
   if (!size) return channel.setName(`Voice Online: [ ${currentSize} ]`);
