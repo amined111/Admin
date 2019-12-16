@@ -3170,7 +3170,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 }       });
 
 client.on('voiceStateUpdate', (old, now) => {
-  const channel = client.channels.get('622613262428536842');
+  const channel = client.channels.get('655947345845944350');
   const currentSize = channel.guild.members.filter(m => m.voiceChannel).size;
   const size = channel.name.match(/\[\s(\d+)\s\]/);
   if (!size) return channel.setName(`Voice Online: [ ${currentSize} ]`);
